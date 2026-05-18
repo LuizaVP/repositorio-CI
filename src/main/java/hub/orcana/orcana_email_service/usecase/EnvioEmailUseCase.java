@@ -8,4 +8,6 @@ import java.util.List;
 public interface EnvioEmailUseCase {
     void enviarEmailSimples(EmailRequest emailRequest);
     void enviarEmailEmLote(List<EmailRequest> emailRequests);
+
+
 }
